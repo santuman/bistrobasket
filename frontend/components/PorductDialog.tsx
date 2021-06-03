@@ -128,7 +128,7 @@ export default function MaxWidthDialog({
           </AppBar>
           <div className={classes.dialogWrapper}>
             <div className={classes.imgContainer}>
-              <img src={data?.image?.formats.large.url || data.image.url} alt="product" />
+              <img src={data?.image?.formats?.large.url || data.image.url} alt="product" />
             </div>
             <div className={classes.descContainer}>
               <div className={classes.desc}>
@@ -160,7 +160,7 @@ export default function MaxWidthDialog({
         >
           <div className={classes.dialogWrapper}>
             <div className={classes.imgContainer}>
-              <img src={data?.image?.formats.large.url || data.image.url} alt="product" />
+              <img src={data?.image?.formats?.large.url || data.image.url} alt="product" />
             </div>
             <div className={classes.descContainer}>
               <div className={classes.desc}>
