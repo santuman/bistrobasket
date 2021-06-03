@@ -15,7 +15,7 @@ export default function Product({ title, description, image, price, onClick }: P
       onClick={onClick}
     >
       <Image
-        src={image.formats.thumbnail.url}
+        src={image?.formats?.thumbnail.url || image.url}
         width="600px"
         height="600px"
         className="object-contain"
