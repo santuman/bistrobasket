@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  body {
+    @apply bg-nice-white;
+    @apply my-5;
+    @apply max-w-7xl;
+    @apply mx-auto;
+    @apply border-4;
+    @apply rounded-3xl;
+    @apply border-white;
+    @apply shadow-2xl;
+  }
+}
