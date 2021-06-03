@@ -15,7 +15,7 @@ export default function Home({ products }: { products: any }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`${BACKEND_API}/products`)
+  const res = await fetch(`https://bistrobasketbackend.herokuapp.com/products`)
   const products = await res.json()
   return {
     props: { products },
